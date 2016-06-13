@@ -194,6 +194,7 @@ neverallow {
   -init
   -ueventd
   -vold
+  -proj_dev_setup
 } self:capability mknod;
 
 attribute rmt_placeholder;
